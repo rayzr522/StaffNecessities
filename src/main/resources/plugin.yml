@@ -3,10 +3,9 @@ name: StaffNecessities
 version: 1.0.0
 description: Various utilities for controlling chat
 author: Rayzr
-#depend: [CreativelyNamedLib]
-#commands:
-#  staffnecessities:
-#    description: StaffNecessities main command
-#    aliases: [alias1,alias2]
-#    usage: "/staffnecessities [command]"
-#    permission: StaffNecessities.main
+depend: [CreativelyNamedLib]
+commands:
+  staffnecessities:
+    description: StaffNecessities main command
+    aliases: [sn, chatcontrol, cc]
+    usage: "/<command> [staff|slow|mute|clear|none]"

@@ -2,7 +2,30 @@ prefix: "&8\u00bb&6 "
 no-permission: "&cYou need the permission '{0}' to do that!"
 
 command:
-  fail:
-    only-players: "&cOnly players can use this command!"
-    no-player: "&cThe player '{0}' does not exist!"
-    not-number: "&c'{0}' is not a valid number!"
+    usage:
+    - "&8&m-----&c Staff&6Necessities &8&m-----"
+    - "&6Aliases: &7/sn, /chatcontrol, /cc"
+    - "&7/sn staff &e- Set chat mode to staff-only"
+    - "&7/sn mute &e- Mutes chat"
+    - "&7/sn slow &e- Rate-limits messages"
+    - "&7/sn clear &e- Clears the chat"
+    - "&7/sn reload &e- Reloads the config"
+    success:
+        clear: "Cleared the chat!"
+        mute: "Chat mute is now {0}"
+        slow: "Slow chat is now {0}"
+        staff: "Staff chat is now {0}"
+        reload: "Config reloaded"
+    fail:
+        only-players: "&cOnly players can use this command!"
+        no-player: "&cThe player '{0}' does not exist!"
+        not-number: "&c'{0}' is not a valid number!"
+          
+chat:
+    muted: "&cThe chat is muted!"
+    slow: "&cWoah, slow down a bit! No need to spam ;)"
+    staff: "&8[&6Staff&8] [&c{0}&8] &6{1}"
+          
+value:
+    enabled: "&aenabled"
+    disabled: "&cdisabled"

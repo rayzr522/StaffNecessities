@@ -1,0 +1,23 @@
+permission:
+    base: "StaffNecessities.use"
+    staff: "StaffNecessities.chat.staff"
+    mute: "StaffNecessities.chat.mute"
+    slow: "StaffNecessities.chat.slow"
+    clear: "StaffNecessities.chat.clear"
+    reload: "StaffNecessities.admin.reload"
+
+# Sounds
+sound: 
+    # Sound to play when you get a staff-chat message (default: none)
+    staff: none
+    # Sound to play when your message is prevented due to a muted chat (default: none)
+    mute: none
+    # Sound to play when your message is rate-limited (default: none)
+    slow: none
+    # Sound to play (to everyone) when the chat is cleared (default: none)
+    clear: none
+    # Sound to play when the config is reloaded (default: none)
+    reload: none
+
+# Only allow a message every X millis (default: 300, equal to 0.3s)
+slow-chat-rate: 300
